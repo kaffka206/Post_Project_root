@@ -1,0 +1,50 @@
+* {
+  box-sizing: inherit;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  
+  height: 100%;
+}
+
+.content {
+  padding: 20px 0;
+  flex: 1 0 auto;
+}
+
+.menu {
+  float: center;
+}
+
+.create {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.add__margin {
+  margin-top: 20px;
+}
+
+.text_not_found {
+  color: rgb(58, 121, 16);
+  background-color: #e1e7ba;
+  margin-top: calc(10%);
+  margin-bottom: calc(30%);
+  text-align: center;
+}
